@@ -53,17 +53,12 @@ Header
 #header ul.navigation {
 	text-align: center;
 }
-#header ul.social {
-	float: right;
-}
 #header ul li {
 	display: inline-block;
 	margin-left: 32px;
 }
 #header ul li:first-of-type {
 	margin-left: 0;
-}
-#header ul li:hover {
 }
 #header ul li:hover a {
 	padding-bottom: 10px;
