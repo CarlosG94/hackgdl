@@ -270,6 +270,21 @@ Footer
 }
 
 /***********************
+Mail To
+************************/
+
+.mailto:link {
+	text-decoration: underline;
+	color:#000;
+}
+
+.mailto:visited {
+	text-decoration: underline;
+	color:#000;
+	
+}
+
+/***********************
 Responsive CSS
 ************************/
 
