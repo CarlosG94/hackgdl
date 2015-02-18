@@ -10,7 +10,10 @@ General
 
 body {
 	font-family: 'Arvo', serif;
-	background-color: #EEBA4C;
+	/*background-color: #EEBA4C;*/
+	background: url(../images/bggdl.jpg) no-repeat center center fixed ;
+	  -webkit-background-size: cover;
+
 }
 * {
 	padding: 0;
@@ -45,7 +48,7 @@ Header
 #header {
 	width: 100%;
 	height: auto;
-	background-color: #EEBA4C;
+	/*background-color: #EEBA4C;*/
 }
 #header .inside {
 	padding: 32px 0 0;
@@ -68,7 +71,7 @@ Header
 #header ul li a {
 	padding-bottom: 24px;
 	display: block;
-	color: rgba(0, 0, 0, 0.64);
+	color: #74CABD;
 	font-weight: 400;
 	font-size: 20px;
 }
@@ -87,10 +90,10 @@ About
 	font-size: 36px;
 	font-weight: 400;
 	margin-bottom: 12px;
-	color: rgba(0, 0, 0, 0.64);
+	color: #fff;
 }
 #header .about p {
-	color: rgba(0, 0, 0, 0.48);
+	color: #fff;
 	font-size: 24px;
 	line-height: 28px;
 }
@@ -215,9 +218,11 @@ Buttons
 	display: block;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .buttons a {
-	color: #fff;
+	color: #555;
 	text-align: center;
 	line-height: 48px;
 	display: block;
@@ -225,7 +230,7 @@ Buttons
 	height: 100%;
 }
 .buttons a:hover {
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
 
 /***********************
@@ -237,6 +242,7 @@ Contacto
 }
 #contact p {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #969696;
 }
 #contact ul {
 	margin-top: 32px;
@@ -256,7 +262,20 @@ Footer
 
 .watermark {
 	margin-top: 40px;
+	
 }
+.ti-facebook {
+	color: #23B5AF;
+}
+
+.ti-twitter-alt {
+	color: #23B5AF;
+}
+
+.ti-email {
+	color: #23B5AF;
+}
+
 .ti-facebook:hover {
 	color: #74C9BD;
 }
