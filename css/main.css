@@ -9,11 +9,9 @@ General
 ************************/
 
 body {
+	background: url(../images/bggdl.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
 	font-family: 'Arvo', serif;
-	/*background-color: #EEBA4C;*/
-	background: url(../images/bggdl.jpg) no-repeat center center fixed ;
-	  -webkit-background-size: cover;
-
 }
 * {
 	padding: 0;
@@ -40,6 +38,7 @@ Helpers
 	width: 960px;
 	margin: 0 auto;
 }
+
 
 /***********************
 Header
