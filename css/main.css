@@ -67,6 +67,7 @@ Header
 #header ul li:hover a {
 	padding-bottom: 10px;
 	color: #00A99E;
+	text-decoration: underline;
 }
 #header ul li a {
 	padding-bottom: 24px;
@@ -87,14 +88,15 @@ About
 	margin-bottom: 350px;
 }
 #header .about h2 {
-	font-size: 36px;
+	font-size: 44px;
 	font-weight: 400;
+	padding-top: -40px;
 	margin-bottom: 12px;
 	color: #fff;
 }
 #header .about p {
 	color: #fff;
-	font-size: 24px;
+	font-size: 38px;
 	line-height: 28px;
 }
 #header .about p strong {
@@ -111,7 +113,7 @@ Logo
 #logo {
 	width: 350px;
 	display: block;
-	margin: 48px auto 48px;
+	margin: 1px auto 40px;
 }
 
 /***********************
@@ -142,7 +144,7 @@ Sections
 	font-family: 'Arvo', serif;
 	font-size: 18px;
 	line-height: 32px;
-	color: rgba(0, 0, 0, 0.48);
+	color: rgba(0, 0, 0, 0.68);
 }
 
 /***********************
@@ -151,17 +153,17 @@ FAQ
 
 #faq {
 	background-color: #23B5AF;
-	margin-bottom: -24px;
+	margin-bottom: -30px;
 }
 #faq .inside {
 	padding-bottom: 0;
 }
 #faq li {
-	margin-bottom: 24px;
+	margin-bottom: 30px;
 }
 #faq h4 {
 	color: #3A3A3C;
-	font-size: 20px;
+	font-size: 26px;
 	margin-bottom: 12px;
 }
 
@@ -222,7 +224,7 @@ Buttons
 	margin-right: auto;
 }
 .buttons a {
-	color: #555;
+	color: #3A3A3C;
 	text-align: center;
 	line-height: 48px;
 	display: block;
@@ -265,15 +267,25 @@ Footer
 	
 }
 .ti-facebook {
-	color: #23B5AF;
+	color: #fff;
+	font-size: 40px;
 }
 
 .ti-twitter-alt {
-	color: #23B5AF;
+	color: #fff;
+	font-size: 40px;
 }
 
 .ti-email {
-	color: #23B5AF;
+	color: #fff;
+	font-size: 40px;
+}
+.ti-instagram {
+	color: #fff;
+	font-size: 40px;
+}
+.ti-instagram:hover {
+	color: #74C9BD;
 }
 
 .ti-facebook:hover {
