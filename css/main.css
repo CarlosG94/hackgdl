@@ -229,6 +229,7 @@ Buttons
 	display: block;
 	width: 100%;
 	height: 100%;
+	font-size: 17px;
 }
 .buttons a:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,0.8);
