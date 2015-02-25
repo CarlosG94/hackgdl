@@ -9,7 +9,7 @@ General
 ************************/
 
 body {
-	background: url(../images/bggdl.jpg) no-repeat center center fixed;
+	background: url(../images/bgcopyright.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
 	font-family: 'Arvo', serif;
 }
@@ -103,6 +103,14 @@ About
 }
 #about {
 	background-color: #E3493B;
+}
+#about .inside p a:link {
+	text-decoration: underline;
+	color: #000;
+}
+#about .inside p a:visited {
+	text-decoration: underline;
+	color: #000;
 }
 
 /***********************
@@ -244,7 +252,7 @@ Contacto
 }
 #contact p {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #969696;
+	color: #fff;
 }
 #contact ul {
 	margin-top: 32px;
@@ -350,8 +358,8 @@ Responsive CSS
 		float: left;
 		margin-left: -30px;
 	}
-	.section h2 {
-		margin-top: 200px;
+	#header .about p {
+		margin-bottom: 250px;
 	}
 	.maps {
 		width: 100px;
