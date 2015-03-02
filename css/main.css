@@ -352,7 +352,7 @@ Responsive CSS
 		margin-top: 100px;
 	}
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
 	#sponsors h3 {
 		text-align: center;
 		float: left;
@@ -362,7 +362,7 @@ Responsive CSS
 		margin-bottom: 250px;
 	}
 	.maps {
-		width: 100px;
+		width: 100%;
 		height: 50px;
 	}
 	#contact ul li {
